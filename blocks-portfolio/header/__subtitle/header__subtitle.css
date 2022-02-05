@@ -1,0 +1,23 @@
+.header__subtitle {
+  font-size: 28px;
+  text-decoration: none;
+  color: #10191E;
+  margin: auto auto;
+  padding: 0;
+}
+
+.header__subtitle[lang="ru"]::before {
+  content: 'Привет, меня зовут ';
+}
+  
+.header__subtitle[lang="en"]::before {
+  content: 'Hello, my name is ';
+}
+  
+.header__subtitle[lang="fr"]::before {
+  content: 'Bonjour, je suis ';
+}
+
+.header__subtitle::after {
+  content: "!";
+}

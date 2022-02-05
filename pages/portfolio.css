@@ -1,0 +1,24 @@
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/list/list.css);
+@import url(../blocks/flex-row/flex-row.css);
+@import url(../blocks/flex-column/flex-column.css);
+
+@import url(../blocks-portfolio/page/page.css);
+@import url(../blocks-portfolio/header/header.css);
+    @import url(../blocks-portfolio/header/__title/header__title.css);
+    @import url(../blocks-portfolio/header/__subtitle/header__subtitle.css);
+@import url(../blocks-portfolio/menu/menu.css);
+    @import url(../blocks-portfolio/menu/__text/menu__text.css);
+    @import url(../blocks-portfolio/menu/__link/menu__link.css);
+      @import url(../blocks-portfolio/menu/__link/_active/menu__link_active.css);
+@import url(../blocks-portfolio/content/content.css);
+    @import url(../blocks-portfolio/content/__title/content__title.css);
+@import url(../blocks-portfolio/project/project.css);
+  @import url(../blocks-portfolio/project/_width/project_width.css);
+  @import url(../blocks-portfolio/project/_height/project_height.css);
+  @import url(../blocks-portfolio/project/_name/project_name.css);
+    @import url(../blocks-portfolio/project/__overlay/project__overlay.css);
+    @import url(../blocks-portfolio/project/__video/project__video.css);
+@import url(../blocks-portfolio/footer/footer.css);
+    @import url(../blocks-portfolio/footer/__logo/footer__logo.css);

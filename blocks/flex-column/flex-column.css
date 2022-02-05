@@ -1,0 +1,9 @@
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.flex-column_reversed {
+    flex-direction: column-reverse;
+}
