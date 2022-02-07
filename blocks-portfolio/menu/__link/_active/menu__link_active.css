@@ -1,3 +1,11 @@
 .menu__link_active {
     text-decoration: underline;
+    color: #10191E;
+}
+
+@media (max-width: 425px) {
+    .menu__link_active {
+        text-decoration: none;
+        color: #00f;
+    }
 }

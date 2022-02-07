@@ -14,6 +14,7 @@
       @import url(../blocks-portfolio/menu/__link/_active/menu__link_active.css);
 @import url(../blocks-portfolio/content/content.css);
     @import url(../blocks-portfolio/content/__title/content__title.css);
+    @import url(../blocks-portfolio/content/__row/content__row.css);
 @import url(../blocks-portfolio/project/project.css);
   @import url(../blocks-portfolio/project/_width/project_width.css);
   @import url(../blocks-portfolio/project/_height/project_height.css);

@@ -3,11 +3,35 @@
 }
   
 .project_height_l {
-    height: 430px;
+    min-height: 432px;
 }
-  
+
 .project_height_m {
-    height: 290px;
+    min-height: 288px;
+}
+
+@media (max-width: 1440px) {
+    .project_height_l {
+        min-height: 30vw;
+    }
+
+    .project_height_m {
+        min-height: 20vw;
+    }    
+}
+
+@media (max-width: 425px) {
+    .project_height_l {
+        min-height: 70vw;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .project_height_m {
+        min-height: 70vw;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
 }
   
 .project_height_s {

@@ -1,7 +1,13 @@
 .menu__text {
-    font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     color: #10191E;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .menu__text {
     margin-right: 20px;
+    }
 }

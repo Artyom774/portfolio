@@ -1,7 +1,21 @@
 .project_width_l {
-    width: 636px;
+    width: 47%;
 }
-  
+
 .project_width_m {
-    width: 306px;
+    width: 23%;
+}
+
+@media (max-width: 425px) {
+    .project_width_l {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project_width_m {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

@@ -1,0 +1,18 @@
+.content__row {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 0 60px;
+    padding: 0;
+}
+
+@media (max-widht: 425px) {
+    .content__row {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-bottom: 40px;
+    }
+}

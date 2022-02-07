@@ -1,5 +1,21 @@
 .content__title {
   font-size: 34px;
+  width: 100%;
+  margin-block-start: 0;
+  margin-block-end: 0;
   margin: 0 0 40px;
+  padding: 0;
   text-align: center;
+}
+
+@media (max-width: 1440px) {
+  .content__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .content__title {
+    font-size: 28px;
+  }
 }

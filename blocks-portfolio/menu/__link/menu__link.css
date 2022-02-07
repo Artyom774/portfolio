@@ -1,10 +1,18 @@
 .menu__link {
-    font-size: 18px;
     text-decoration: none;
-    color: #10191E;
-    margin-right: 20px;
+    color: #00f;
+    margin: 10px 0 0;
+    padding: 0;
 }
 
-.menu__link:last-of-type {
-    margin-right: 0;
+@media (min-width: 768px) {
+    .menu__link {
+        margin-top: 0;
+        margin-right: 20px;
+    }
+
+    .menu__link:last-of-type {
+        margin-right: 0;
+    }
 }
+
