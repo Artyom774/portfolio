@@ -1,12 +1,13 @@
 .card {
-    width: 350px;
-    margin-bottom: 60px;
+    width: 45%;
+    margin: 0 auto 60px;
     padding: 45px 45px 70px;
     display: inline-block;
-    margin-right: 90px;
     box-shadow: 4px 4px 5px rgba(250,50,50,.4);
 }
 
-.card:nth-child(2n) {
-    margin-right: 0;
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+    }
 }

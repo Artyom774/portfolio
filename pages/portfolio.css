@@ -8,6 +8,8 @@
 @import url(../blocks-portfolio/header/header.css);
     @import url(../blocks-portfolio/header/__title/header__title.css);
     @import url(../blocks-portfolio/header/__subtitle/header__subtitle.css);
+    @import url(../blocks-portfolio/header/__e-mail-address/header__e-mail-address.css);
+    @import url(../blocks-portfolio/header/__e-mail/header__e-mail.css);
 @import url(../blocks-portfolio/menu/menu.css);
     @import url(../blocks-portfolio/menu/__text/menu__text.css);
     @import url(../blocks-portfolio/menu/__link/menu__link.css);

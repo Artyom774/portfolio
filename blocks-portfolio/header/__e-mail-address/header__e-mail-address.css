@@ -1,0 +1,14 @@
+.header__e-mail-address {
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #10191E;
+    margin: auto auto;
+    padding: 0;
+  }
+  
+  @media (max-width: 1440px) {
+    .header__e-mail-address {
+      font-size: 18px;
+    }
+  }

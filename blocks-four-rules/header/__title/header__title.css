@@ -5,3 +5,15 @@
     font-weight: 500;
     margin: auto;
 }
+
+@media (max-width: 768px) {
+    .header__title {
+        font-size: 72px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header__title {
+        font-size: 48px;
+    }
+}
