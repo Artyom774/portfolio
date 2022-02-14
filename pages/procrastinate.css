@@ -1,0 +1,77 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts_project_procrastinate.css);
+
+@import url(../blocks-procrastinate/page/page.css);
+@import url(../blocks-procrastinate/header/header.css);
+    @import url(../blocks-procrastinate/header/__logo/header__logo.css);
+    @import url(../blocks-procrastinate/header/__button/header__button.css);
+@import url(../blocks-procrastinate/main-image/main-image.css);
+
+html {
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.advice {
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 70px;
+}
+  
+.footer {
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    bottom: 36px;
+}
+
+@media (max-width: 560px) {
+    .page {
+      padding: 24px;
+    }
+  
+    .header__logo {
+      font-size: 18px;
+    }
+  
+    .header__button {
+      width: 110px;
+    }
+  
+    .main-image {
+      margin: 90px auto 50px;
+    }
+  
+    .advice {
+      font-size: 24px !important;
+    }
+  
+    .cursor {
+      width: 8px;
+    }
+  
+    .footer {
+      font-size: 12px;
+      bottom: 24px;
+    }
+}
+  
+@media (min-height: 800px) {
+    .page {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .header {
+      width: calc(100% - 72px);
+      position: absolute;
+      top: 36px;
+    }
+  
+    .main-image {
+      margin: 0 auto 50px;
+    }
+}
