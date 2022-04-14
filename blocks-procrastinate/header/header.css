@@ -3,3 +3,11 @@
     align-items: baseline;
     justify-content: space-between;
 }
+
+@media (min-height: 800px) {
+    .header {
+      width: calc(100% - 72px);
+      position: absolute;
+      top: 36px;
+    }
+}

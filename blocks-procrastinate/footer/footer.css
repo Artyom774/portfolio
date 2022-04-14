@@ -1,0 +1,13 @@
+.footer {
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    bottom: 36px;
+}
+
+@media (max-width: 560px) {
+    .footer {
+        font-size: 12px;
+        bottom: 24px;
+    }
+}

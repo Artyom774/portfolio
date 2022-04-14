@@ -3,6 +3,8 @@
 @import url(../blocks/list/list.css);
 @import url(../blocks/flex-row/flex-row.css);
 @import url(../blocks/flex-column/flex-column.css);
+@import url(../blocks/font-weight/font-weight_bold.css);
+@import url(../blocks/color/color_red.css);
 
 @import url(../blocks-portfolio/page/page.css);
 @import url(../blocks-portfolio/header/header.css);
@@ -17,6 +19,7 @@
 @import url(../blocks-portfolio/content/content.css);
     @import url(../blocks-portfolio/content/__title/content__title.css);
     @import url(../blocks-portfolio/content/__row/content__row.css);
+    @import url(../blocks-portfolio/content/__text/content__text.css);
 @import url(../blocks-portfolio/project/project.css);
   @import url(../blocks-portfolio/project/_width/project_width.css);
   @import url(../blocks-portfolio/project/_height/project_height.css);
