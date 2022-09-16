@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex-direction: row;
     width: 100%;
     margin: 0 0 60px;
     padding: 0;
